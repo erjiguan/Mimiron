@@ -1,12 +1,11 @@
 package handler
 
 import (
-	"net/http"
 	"fmt"
+	"net/http"
 )
 
 type QuestionHandler struct {
-
 }
 
 func (h *QuestionHandler) GetQuestion(w http.ResponseWriter, r *http.Request) {

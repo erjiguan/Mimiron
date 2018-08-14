@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-03.dtd">
+<coverage line-rate="0" branch-rate="0" version="" timestamp="1534180719440">
+	<packages>
+		<package name="github.com/erjiguan/Mimiron/pkg/handler" line-rate="0" branch-rate="0" complexity="0" line-count="1" line-hits="0">
+			<classes>
+				<class name="QuestionHandler" filename="/home/lvyang/go/src/github.com/erjiguan/Mimiron/pkg/handler/question_handler.go" line-rate="0" branch-rate="0" complexity="0" line-count="1" line-hits="0">
+					<methods>
+						<method name="GetQuestion" signature="" line-rate="0" branch-rate="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="12" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="0"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
