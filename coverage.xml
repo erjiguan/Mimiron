@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-03.dtd">
-<coverage line-rate="0" branch-rate="0" version="" timestamp="1534259895549">
+<coverage line-rate="0" branch-rate="0" version="" timestamp="1534265498419">
 	<packages>
 		<package name="github.com/erjiguan/Mimiron/pkg/handler" line-rate="0" branch-rate="0" complexity="0" line-count="1" line-hits="0">
 			<classes>

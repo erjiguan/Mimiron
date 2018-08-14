@@ -1,0 +1,12 @@
+language: go
+go:
+  - 1.x
+  - '1.8'
+  - '1.9'
+  - 1.10.x
+notifications:
+  email:
+    recipients:
+      - 37430534@qq.com
+    on_success: change
+    on_failure: always
