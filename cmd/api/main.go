@@ -4,13 +4,14 @@ import (
 	"flag"
 	"net/http"
 
-	"github.com/go-chi/chi"
-	"fmt"
 	"context"
-	"time"
+	"fmt"
 	"os"
 	"os/signal"
 	"syscall"
+	"time"
+
+	"github.com/go-chi/chi"
 )
 
 var (
@@ -55,7 +56,7 @@ func main() {
 
 func run(port string, route chi.Router) {
 	hs := http.Server{
-		Addr: port,
+		Addr:    port,
 		Handler: route,
 	}
 
@@ -65,7 +66,7 @@ func run(port string, route chi.Router) {
 		if err := hs.ListenAndServe(); err != nil {
 			fmt.Println("Mimiron exiting with error: ", err)
 		}
-	} ()
+	}()
 
 	// Graceful shutdown
 	kill := make(chan os.Signal)

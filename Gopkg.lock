@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:d48cc03a21c4a768e554f378f0061f7b3000b68ee8fc804040cb0de76574d3ca"
+  name = "github.com/bitly/go-hostpool"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "a3a6125de9329587178a9792dc8f4bc98e620d2d"
+
+[[projects]]
   digest = "1:66ddebb274faa160a4a23394a17ad3c8e15fee9bf5408d13f77d22b61bc7f072"
   name = "github.com/go-chi/chi"
   packages = ["."]
@@ -9,9 +17,26 @@
   revision = "e83ac2304db3c50cf03d96a2fcd39009d458bc35"
   version = "v3.3.2"
 
+[[projects]]
+  digest = "1:284e464925781ebe9c64e75ebdcb0b588feaa21258fe9af4d82cbb79d7e68882"
+  name = "github.com/mattbaird/elastigo"
+  packages = [
+    ".",
+    "api",
+    "cluster",
+    "core",
+    "indices",
+  ]
+  pruneopts = "UT"
+  revision = "0c98885a2b2575c99882263dfc4bf6aae9079a63"
+  version = "v1.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/go-chi/chi"]
+  input-imports = [
+    "github.com/go-chi/chi",
+    "github.com/mattbaird/elastigo",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
